@@ -1,5 +1,9 @@
+import InternetAddress.PrintIPAddress;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PrintIPAddress p = new PrintIPAddress("www.oreilly.com");
+        p.printHostIP();
+        p.printHostName("23.54.246.174");
     }
 }
